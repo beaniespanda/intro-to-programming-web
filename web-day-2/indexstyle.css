@@ -1,0 +1,31 @@
+
+ p{
+            
+     color: #c1918e;
+    }
+ h1 {
+            color: rgb(254, 0, 0);
+        }
+ h2{
+            
+     color: #e70e0e;
+    }
+ h3 {
+            color: rgba(219, 14, 14, 0.962);
+        }        
+
+ ul{
+            
+     color: rgb(245, 245, 245);
+    }
+ ol {
+            color: rgba(255, 255, 255, 0.962);
+        }
+ hr{
+            
+     color: #ff7700;
+    }
+ a {
+            color: rgba(255, 115, 0, 0.962);
+        }      
+
