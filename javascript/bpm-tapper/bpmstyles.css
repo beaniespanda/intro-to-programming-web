@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fddbff;
+}
+
+@font-face {
+font-family: DigiBop;
+src: url(https://dl.dropbox.com/s/8maabpvuycdrlai/DigiBop-Regular.ttf);
+}
+
+@font-face {
+font-family: pixel;
+src: url(https://dl.dropbox.com/s/kmhe7d3n18vdz5e/w95fa.woff?dl=0);
+}
+ 
+
+h1 {
+    font-family: DigiBop, sans-serif;
+    color: #fc0695;
+}
+
+p {
+    font-family: pixel, sans-serif;
+    color:#fb27a3
+}
+
+#tapButton {
+    font-family: pixel, sans-serif;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #d6aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0; /* Add margin above and below the button */
+    transition: background-color 0.2s;
+}
+
+#tapButton:hover {
+    background-color: #c280ff;
+}
