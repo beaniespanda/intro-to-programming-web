@@ -14,10 +14,10 @@ function getBPM() {
     if (clicks.length >= min_clicks) {
         
         // Pass teh clicks array to a function called calculateBPMFromClicks and save the return value in calculateBPM
-        let calculateBPM = calculateBPMFromClicks(clicks);
+        let calculatedBPM = calculateBPMFromClicks(clicks);
 
         // Bring up an alert that tells the user the BPM that was calculated
-        alert("Your calculated BPM is: " + calculateBPM);
+        alert("Your calculated BPM is: " + calculatedBPM);
 
         // Erase all the timestamps to get ready for the next set of user clicks
         clicks = [];
@@ -38,6 +38,6 @@ function calculateBPMFromClicks(clickTimestamps) {
 
     let averageInterval = totalInterval / numIntervals;
 
-    return Math.round(6000/averageInterval);
+    return Math.round(60000/averageInterval);
 }
 
